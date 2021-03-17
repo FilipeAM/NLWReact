@@ -21,7 +21,7 @@ interface ChallengesContextData {
 
 interface ChallengesProviderProps {
     children: ReactNode;
-}
+} ///////////////////////////////////////
 
 export const ChallengesContext = createContext({} as ChallengesContextData);
 
